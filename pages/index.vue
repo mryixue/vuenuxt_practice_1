@@ -1,7 +1,6 @@
 <template lang="pug">
 div
-  component(:is="'msg'")
-  a(href="./abc") to abc
+  a(href="./login") login
 </template>
 
 <script>
