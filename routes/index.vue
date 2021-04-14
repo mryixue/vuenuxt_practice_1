@@ -1,6 +1,6 @@
 <template lang="pug">
 div
-  a(href="./login") login
+  a(href="./navbar") navbar
 </template>
 
 <script>

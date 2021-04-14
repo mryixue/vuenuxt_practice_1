@@ -1,5 +1,6 @@
 module.exports = {
   dir: {
+    pages: 'routes',
     components: 'compos'
   },
 
@@ -12,7 +13,7 @@ module.exports = {
   ],
 
   css: [
-    '~/assets/css/reset.sass'
+    '~/assets/css/reset.sass',
   ]
 
 }
