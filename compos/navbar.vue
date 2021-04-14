@@ -48,9 +48,6 @@ export default {
 </script>
 
 <style lang="sass">
-$header-height: 60px
-$font-color: #fa7c3d
-
 header
   width: 100%
   height: $header-height
@@ -74,5 +71,4 @@ header
       right: 20px
     &--item
       margin: 10px
-
 </style>

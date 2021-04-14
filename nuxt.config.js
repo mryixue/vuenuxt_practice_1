@@ -4,7 +4,10 @@ module.exports = {
     components: 'compos'
   },
 
-  modules: ['@nuxtjs/axios'],
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/style-resources'
+  ],
 
   plugins: ['~/plugins/axios.js'],
 
@@ -14,6 +17,12 @@ module.exports = {
 
   css: [
     '~/assets/css/reset.sass',
-  ]
+    '~/assets/css/style.sass',
+    '~/assets/css/user.sass'
+  ],
+
+  styleResources: {
+    sass: '~/assets/css/style.sass'
+  }
 
 }

@@ -14,7 +14,6 @@
 
 <script>
 export default {
-  layout: 'user',
   data() {
     return {
       email: '',

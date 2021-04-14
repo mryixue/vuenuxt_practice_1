@@ -1,13 +1,15 @@
 <template lang="pug">
-div
-  a(href="./navbar") navbar
+main
+  a(href="./login") login
 </template>
 
 <script>
 export default {
-
 }
 </script>
 
 <style lang="sass">
+main
+  margin:
+    top: $header-height
 </style>
