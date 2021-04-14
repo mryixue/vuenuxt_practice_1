@@ -1,15 +1,10 @@
 <template lang="pug">
-main
+section(style="margin-top: 60px")
   a(href="./login") login
+  NuxtLink(to="/restaurants/") 首頁
 </template>
 
 <script>
 export default {
 }
 </script>
-
-<style lang="sass">
-main
-  margin:
-    top: $header-height
-</style>

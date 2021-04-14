@@ -6,10 +6,12 @@ module.exports = {
 
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
   ],
 
-  plugins: ['~/plugins/axios.js'],
+  plugins: [
+    '~/plugins/axios.js',
+  ],
 
   components: [
     '~/compos/'

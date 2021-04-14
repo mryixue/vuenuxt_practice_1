@@ -1,11 +1,11 @@
 <template lang="pug">
-  header
-    a.logo(href="/") 餐廳評論網
-    .nav
-      template(v-if="isAuthenticated")
-        a.nav--item 管理員後台
-        a.nav--item {{currentUser.name || '使用者'}} 您好
-      button 登出
+header
+  a.logo(href="/restaurants/") 餐廳評論網
+  .user
+    template(v-if="isAuthenticated")
+      a.user--item 管理員後台
+      a.user--item {{currentUser.name || '使用者'}} 您好
+    button 登出
 </template>
 
 <script>
@@ -62,7 +62,7 @@ header
     line-height: $header-height
     font-size: 30px
 
-  .nav
+  .user
     float: right
     height: $header-height
     display: flex
